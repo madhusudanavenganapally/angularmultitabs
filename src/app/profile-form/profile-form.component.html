@@ -1,0 +1,14 @@
+<div>
+    <h2>Profile Information</h2>
+    <form [formGroup]="registrationForm.get('profile')">
+      <label for="firstName">First Name:</label>
+      <input id="firstName" formControlName="firstName" required />
+  
+      <label for="lastName">Last Name:</label>
+      <input id="lastName" formControlName="lastName" required />
+  
+      <label for="email">Email:</label>
+      <input id="email" type="email" formControlName="email" required />
+    </form>
+  </div>
+  

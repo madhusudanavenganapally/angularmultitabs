@@ -1,0 +1,10 @@
+<div>
+  <ul class="tab-links">
+    <li (click)="navigateTo('profile')" style="cursor: pointer;">Profile</li>
+    <li (click)="navigateTo('address')" style="cursor: pointer;">Address</li>
+  </ul>
+
+  <router-outlet></router-outlet>
+
+  <button (click)="submit()">Submit Registration</button>
+</div>
